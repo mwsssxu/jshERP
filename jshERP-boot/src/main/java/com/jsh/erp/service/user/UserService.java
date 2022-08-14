@@ -138,7 +138,7 @@ public class UserService {
      * create by: palan
      * description:
      * 添加事务控制
-     * create time: 2019/1/11 14:30
+     * create time: 2022/1/11 14:30
      * @Param: beanJson
      * @Param: request
      * @return int
@@ -169,7 +169,7 @@ public class UserService {
      * create by: palan
      * description:
      * 添加事务控制
-     * create time: 2019/1/11 14:31
+     * create time: 2022/1/11 14:31
      * @Param: beanJson
      * @Param: id
      * @return int
@@ -191,7 +191,7 @@ public class UserService {
      * create by: palan
      * description:
      * 添加事务控制
-     * create time: 2019/1/11 14:32
+     * create time: 2022/1/11 14:32
      * @Param: user
      * @return int
      */
@@ -212,7 +212,7 @@ public class UserService {
      * create by: palan
      * description:
      *  添加事务控制
-     * create time: 2019/1/11 14:33
+     * create time: 2022/1/11 14:33
      * @Param: md5Pwd
      * @Param: id
      * @return int
@@ -365,7 +365,7 @@ public class UserService {
      * create by: palan
      * description:
      *  获取当前用户信息
-     * create time: 2019/1/24 10:01
+     * create time: 2022/1/24 10:01
      * @Param:
      * @return com.jsh.erp.datasource.entities.User
      */
@@ -489,7 +489,7 @@ public class UserService {
     public UserEx registerUser(UserEx ue, Integer manageRoleId, HttpServletRequest request) throws Exception{
         /**
          * create by: palan
-         * create time: 2019/4/9 18:00
+         * create time: 2022/4/9 18:00
          * 多次创建事务，事物之间无法协同，应该在入口处创建一个事务以做协调
          */
         if(BusinessConstants.DEFAULT_MANAGER.equals(ue.getLoginName())) {
@@ -635,7 +635,7 @@ public class UserService {
      * create by: palan
      * description:
      *  检查用户名称和登录名不能重复
-     * create time: 2019/3/12 11:36
+     * create time: 2022/3/12 11:36
      * @Param: userEx
      * @return void
      */

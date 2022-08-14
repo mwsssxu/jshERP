@@ -153,7 +153,7 @@ public class SerialNumberService {
     /**
      * create by: palan
      *  逻辑删除序列号信息
-     * create time: 2019/3/27 17:43
+     * create time: 2022/3/27 17:43
      * @Param: ids
      * @return
      */
@@ -193,7 +193,7 @@ public class SerialNumberService {
      * create by: palan
      * description:
      *  根据商品名称判断商品名称是否有效
-     * create time: 2019/1/23 17:04
+     * create time: 2022/1/23 17:04
      * @Param: materialName
      * @return Long 满足使用条件的商品的id
      */
@@ -235,7 +235,7 @@ public class SerialNumberService {
      *  3、该商品已绑定序列号数量小于商品现有库存
      *  2019-02-01
      *  用商品的库存去限制序列号的添加有点不合乎道理，去掉此限制
-     * create time: 2019/1/23 17:04
+     * create time: 2022/1/23 17:04
      * @Param: materialName
      * @return Long 满足使用条件的商品的id
      */
@@ -259,7 +259,7 @@ public class SerialNumberService {
      * description:
      * 出库时判断序列号库存是否足够，
      * 同时将对应的序列号绑定单据
-     * create time: 2019/1/24 16:24
+     * create time: 2022/1/24 16:24
      * @Param: List<DepotItem>
      * @return void
      */
@@ -276,7 +276,7 @@ public class SerialNumberService {
      * create by: palan
      * description:
      * 卖出序列号
-     * create time: 2019/1/25 9:17
+     * create time: 2022/1/25 9:17
      * @Param: materialId
      * @Param: depotheadId
      * @Param: isSell 卖出'1'
@@ -301,7 +301,7 @@ public class SerialNumberService {
      * create by: palan
      * description:
      * 赎回序列号
-     * create time: 2019/1/25 9:17
+     * create time: 2022/1/25 9:17
      * @Param: materialId
      * @Param: depotheadId
      * @Param: isSell 赎回'0'
@@ -323,7 +323,7 @@ public class SerialNumberService {
      * create by: palan
      * description:
      *批量添加序列号，最多500个
-     * create time: 2019/1/29 15:11
+     * create time: 2022/1/29 15:11
      * @Param: materialName
      * @Param: serialNumberPrefix
      * @Param: batAddTotal

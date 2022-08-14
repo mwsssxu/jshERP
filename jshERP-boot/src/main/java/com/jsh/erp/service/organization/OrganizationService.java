@@ -254,7 +254,7 @@ public class OrganizationService {
      * create by: palan
      * description:
      *  检查机构编号是否已经存在
-     * create time: 2019/3/7 10:01
+     * create time: 2022/3/7 10:01
      * @Param: orgNo
      * @return void
      */

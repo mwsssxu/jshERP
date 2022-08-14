@@ -37,7 +37,7 @@ public class GlobalExceptionHandler {
         log.error("Global Exception Occured => url : {}, msg : {}", request.getRequestURL(), e.getMessage());
         /**
          * create by: palan
-         * create time: 2019/4/18 17:41
+         * create time: 2022/4/18 17:41
          * 这里输出完整的堆栈信息，否则有些异常完全不知道哪里出错了。
          */
         log.error("Global Exception Occured => url : {}", request.getRequestURL(), e);

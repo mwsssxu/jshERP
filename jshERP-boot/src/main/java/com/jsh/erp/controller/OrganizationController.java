@@ -26,7 +26,7 @@ import java.util.List;
  * create by: palan
  * description:
  *
- * create time: 2019/3/6 10:54
+ * create time: 2022/3/6 10:54
  */
 @RestController
 @RequestMapping(value = "/organization")
@@ -79,7 +79,7 @@ public class OrganizationController {
      * create by: palan
      * description:
      * 获取机构树数据
-     * create time: 2019/2/19 11:49
+     * create time: 2022/2/19 11:49
      * @Param:
      * @return com.alibaba.fastjson.JSONArray
      */
@@ -101,7 +101,7 @@ public class OrganizationController {
      * create by: palan
      * description:
      *  新增机构信息
-     * create time: 2019/2/19 17:17
+     * create time: 2022/2/19 17:17
      * @Param: beanJson
      * @return java.lang.Object
      */
@@ -121,7 +121,7 @@ public class OrganizationController {
      * create by: palan
      * description:
      *  修改机构信息
-     * create time: 2019/2/20 9:30
+     * create time: 2022/2/20 9:30
      * @Param: beanJson
      * @return java.lang.Object
      */

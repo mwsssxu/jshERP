@@ -96,7 +96,7 @@ public class MaterialCategoryController {
      * create by: palan
      * description:
      * 获取商品类别树数据
-     * create time: 2019/2/19 11:49
+     * create time: 2022/2/19 11:49
      * @Param:
      * @return com.alibaba.fastjson.JSONArray
      */
@@ -118,7 +118,7 @@ public class MaterialCategoryController {
      * create by: palan
      * description:
      *  新增商品类别数据
-     * create time: 2019/2/19 17:17
+     * create time: 2022/2/19 17:17
      * @Param: beanJson
      * @return java.lang.Object
      */
@@ -138,7 +138,7 @@ public class MaterialCategoryController {
      * create by: palan
      * description:
      *  修改商品类别数据
-     * create time: 2019/2/20 9:30
+     * create time: 2022/2/20 9:30
      * @Param: beanJson
      * @return java.lang.Object
      */

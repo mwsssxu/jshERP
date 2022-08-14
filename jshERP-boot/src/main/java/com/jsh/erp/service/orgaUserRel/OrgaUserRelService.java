@@ -105,7 +105,7 @@ public class OrgaUserRelService {
      * create by: palan
      * description:
      *  新增机构用户关联关系,反显id
-     * create time: 2019/3/12 9:40
+     * create time: 2022/3/12 9:40
      * @Param: orgaUserRel
      * @return void
      */
@@ -145,7 +145,7 @@ public class OrgaUserRelService {
      * create by: palan
      * description:
      *  更新机构用户关联关系
-     * create time: 2019/3/12 9:40
+     * create time: 2022/3/12 9:40
      * @Param: orgaUserRel
      * @return void
      */

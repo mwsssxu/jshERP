@@ -241,7 +241,7 @@ public class MaterialCategoryService {
      * create by: palan
      * description:
      *获取商品类别树数据
-     * create time: 2019/2/19 14:30
+     * create time: 2022/2/19 14:30
      * @Param:
      * @return java.util.List<com.jsh.erp.datasource.vo.TreeNode>
      */
@@ -258,7 +258,7 @@ public class MaterialCategoryService {
      * create by: palan
      * description:
      *  新增商品类别信息
-     * create time: 2019/2/19 16:30
+     * create time: 2022/2/19 16:30
      * @Param: mc
      * @return void
      */

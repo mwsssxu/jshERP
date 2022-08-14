@@ -312,7 +312,7 @@ public class UserController {
      * create by: palan
      * description:
      *  新增用户及机构和用户关系
-     * create time: 2019/3/8 16:06
+     * create time: 2022/3/8 16:06
      * @Param: beanJson
      * @return java.lang.Object
      */
@@ -337,7 +337,7 @@ public class UserController {
      * create by: palan
      * description:
      *  修改用户及机构和用户关系
-     * create time: 2019/3/8 16:06
+     * create time: 2022/3/8 16:06
      * @Param: beanJson
      * @return java.lang.Object
      */
