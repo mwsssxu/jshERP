@@ -3,7 +3,7 @@ package com.jsh.erp.utils;
 import java.util.UUID;
 
 /**
- * by palan qq-752718920 2018-10-7 12:01:36
+ * by palan qq- 2022-10-7 12:01:36
  */
 public class Constants {
 

@@ -20,7 +20,7 @@ import java.util.Map;
 import static com.jsh.erp.utils.ResponseJsonUtil.returnJson;
 
 /**
- * by palan 2018-9-12 23:58:10 
+ * by palan 2022-9-12 23:58:10 
  */
 @RestController
 @Api(tags = {"资源接口"})

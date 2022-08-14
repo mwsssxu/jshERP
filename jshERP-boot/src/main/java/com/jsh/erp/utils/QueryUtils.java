@@ -12,7 +12,7 @@ import static com.jsh.erp.utils.Constants.CURRENT_PAGE;
 import static com.jsh.erp.utils.Constants.PAGE_SIZE;
 
 /**
- * @author palan qq752718920  2018-10-7 15:26:27
+ * @author palan   2022-10-7 15:26:27
  */
 public class QueryUtils {
     public static String filterSqlSpecialChar(String search) {

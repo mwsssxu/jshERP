@@ -5,7 +5,7 @@ import com.jsh.erp.service.ResourceInfo;
 import java.lang.annotation.*;
 
 /**
- * @author palan qq752718920  2021-07-21 22:26:27
+ * @author palan   2021-07-21 22:26:27
  */
 @ResourceInfo(value = "materialAttribute")
 @Inherited

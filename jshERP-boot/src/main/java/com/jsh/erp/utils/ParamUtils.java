@@ -6,7 +6,7 @@ import java.util.Enumeration;
 import java.util.HashMap;
 
 /**
- * @author palan qq752718920  2018-10-7 15:26:27
+ * @author palan   2022-10-7 15:26:27
  */
 public class ParamUtils {
     public static String getPageOffset(Integer currentPage, Integer pageSize) {

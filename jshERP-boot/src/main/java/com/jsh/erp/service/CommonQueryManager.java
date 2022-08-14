@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author palan 752718920 2018-10-7 15:25:58
+ * @author palan  2022-10-7 15:25:58
  */
 @Service
 public class CommonQueryManager {

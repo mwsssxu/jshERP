@@ -4,7 +4,7 @@ import com.alibaba.fastjson.annotation.JSONCreator;
 import com.alibaba.fastjson.annotation.JSONField;
 
 /**
- * @author palan qq752718920  2018-10-7 15:26:27
+ * @author palan   2022-10-7 15:26:27
  */
 public class ResponseCode {
 
