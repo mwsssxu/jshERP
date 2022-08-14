@@ -81,7 +81,7 @@ public class SystemConfigController {
                 res.data = list.get(0);
             }
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "获取数据失败";
         }
@@ -108,7 +108,7 @@ public class SystemConfigController {
             res.code = 200;
             res.data = limit;
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "获取数据失败";
         }
@@ -145,7 +145,7 @@ public class SystemConfigController {
                 res.data = "上传失败！";
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "上传失败！";
         }
@@ -234,7 +234,7 @@ public class SystemConfigController {
         } catch (IOException e) {
             logger.error("预览文件失败" + e.getMessage());
             response.setStatus(404);
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
         } finally {
             if (inputStream != null) {
                 try {

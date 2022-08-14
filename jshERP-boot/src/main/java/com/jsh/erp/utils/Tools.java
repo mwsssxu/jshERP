@@ -343,7 +343,7 @@ public class Tools {
         try {
             return InetAddress.getLocalHost().getHostAddress();
         } catch (UnknownHostException e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             return "127.0.0.1";
         }
     }
@@ -448,7 +448,7 @@ public class Tools {
                 }
             }
         } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
         }
         return returnFileName;
     }
@@ -534,7 +534,7 @@ public class Tools {
             try {
                 return new String(emailAttchmentTitle.getBytes(), "ISO-8859-1");
             } catch (UnsupportedEncodingException e) {
-                e.printStackTrace();
+                logger.error(e.getMessage(), e);
             }
         }
         return emailAttchmentTitle;
@@ -587,7 +587,7 @@ public class Tools {
         try {
             r.exec(cmdArray);
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
         }
     }
 
@@ -747,7 +747,7 @@ public class Tools {
             System.out.println(md5Encryp("admin"));
         } catch (NoSuchAlgorithmException e) {
             // TODO Auto-generated catch block
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
         }
 
         String value = "2333";

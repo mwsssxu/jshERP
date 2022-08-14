@@ -128,7 +128,7 @@ public class MaterialController {
             res.code = 200;
             res.data = list;
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "获取数据失败";
         }
@@ -158,7 +158,7 @@ public class MaterialController {
             res.code = 200;
             res.data = mu;
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "获取数据失败";
         }
@@ -244,7 +244,7 @@ public class MaterialController {
             }
             object.put("rows", dataArray);
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
         }
         return object;
     }
@@ -291,7 +291,7 @@ public class MaterialController {
                 item.put("unit", material.getUnit() + ratio);
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
         }
         return item;
     }
@@ -362,7 +362,7 @@ public class MaterialController {
             File file = ExcelUtils.exportObjectsWithoutTitle(title, names, title, objects);
             ExportExecUtil.showExec(file, file.getName(), response);
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
         }
     }
 
@@ -381,7 +381,7 @@ public class MaterialController {
         try {
             res = materialService.importExcel(file, request);
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
         }
         return res;
     }
@@ -419,7 +419,7 @@ public class MaterialController {
             object.put("rows", list);
             object.put("total", count);
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
         }
         return object;
     }
@@ -459,7 +459,7 @@ public class MaterialController {
                 arr.add(item);
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
         }
         return arr;
     }
@@ -521,7 +521,7 @@ public class MaterialController {
             res.code = 200;
             res.data = list;
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "获取数据失败";
         }
@@ -611,7 +611,7 @@ public class MaterialController {
             res.code = 200;
             res.data = map;
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "获取数据失败";
         }

@@ -101,7 +101,7 @@ public class SupplierController {
             }
             arr = dataArray;
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
         }
         return arr;
     }
@@ -129,7 +129,7 @@ public class SupplierController {
             }
             arr = dataArray;
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
         }
         return arr;
     }
@@ -174,7 +174,7 @@ public class SupplierController {
             }
             arr = dataArray;
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
         }
         return arr;
     }
@@ -203,7 +203,7 @@ public class SupplierController {
             }
             arr = dataArray;
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
         }
         return arr;
     }
@@ -272,7 +272,7 @@ public class SupplierController {
             outer.put("children", dataArray);
             arr.add(outer);
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
         }
         return arr;
     }
@@ -294,7 +294,7 @@ public class SupplierController {
             res.code = 200;
             res.data = "导入成功";
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "导入失败";
         }
@@ -318,7 +318,7 @@ public class SupplierController {
             res.code = 200;
             res.data = "导入成功";
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "导入失败";
         }
@@ -342,7 +342,7 @@ public class SupplierController {
             res.code = 200;
             res.data = "导入成功";
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "导入失败";
         }
@@ -370,7 +370,7 @@ public class SupplierController {
             File file = supplierService.exportExcel(dataList, type);
             ExportExecUtil.showExec(file, file.getName(), response);
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
         }
     }
 

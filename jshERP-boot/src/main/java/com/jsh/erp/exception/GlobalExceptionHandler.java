@@ -41,7 +41,7 @@ public class GlobalExceptionHandler {
          * 这里输出完整的堆栈信息，否则有些异常完全不知道哪里出错了。
          */
         log.error("Global Exception Occured => url : {}", request.getRequestURL(), e);
-        e.printStackTrace();
+        logger.error(e.getMessage(), e);
         return status;
     }
 }

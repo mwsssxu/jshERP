@@ -141,7 +141,7 @@ public class DepotItemController {
             res.code = 200;
             res.data = map;
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "获取数据失败";
         }
@@ -247,7 +247,7 @@ public class DepotItemController {
             res.code = 200;
             res.data = outer;
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "获取数据失败";
         }
@@ -346,7 +346,7 @@ public class DepotItemController {
             res.code = e.getCode();
             res.data = e.getData().get("message");
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "获取数据失败";
         }
@@ -393,7 +393,7 @@ public class DepotItemController {
             res.code = e.getCode();
             res.data = e.getData().get("message");
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "获取数据失败";
         }
@@ -485,7 +485,7 @@ public class DepotItemController {
             res.code = 200;
             res.data = map;
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "获取数据失败";
         }
@@ -561,7 +561,7 @@ public class DepotItemController {
             res.code = 200;
             res.data = map;
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "获取数据失败";
         }
@@ -639,7 +639,7 @@ public class DepotItemController {
             res.code = 200;
             res.data = map;
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "获取数据失败";
         }
@@ -694,7 +694,7 @@ public class DepotItemController {
             res.code = 200;
             res.data = map;
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "统计失败";
         }
@@ -729,7 +729,7 @@ public class DepotItemController {
             res.code = 200;
             res.data = map;
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "获取数据失败";
         }

@@ -82,7 +82,7 @@ public abstract class ComputerInfo {
                     }
                 }
             } catch (IOException e) {
-                e.printStackTrace();
+                logger.error(e.getMessage(), e);
             }
 
             macAddressStr = sb.toString();
@@ -133,7 +133,7 @@ public abstract class ComputerInfo {
             try {
                 id = getIpAddrAndName();
             } catch (IOException e) {
-                e.printStackTrace();
+                logger.error(e.getMessage(), e);
             }
         }
         return computerName;

@@ -343,7 +343,7 @@ public class AccountHeadService {
                 allMoney = sum;
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
         }
         //返回正数，如果负数也转为正数
         if ((allMoney.compareTo(BigDecimal.ZERO))==-1) {

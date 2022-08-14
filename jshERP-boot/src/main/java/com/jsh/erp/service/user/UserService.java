@@ -152,7 +152,7 @@ public class UserService {
             password = Tools.md5Encryp(password);
             user.setPassword(password);
         } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             logger.error(">>>>>>>>>>>>>>转化MD5字符串错误 ：" + e.getMessage());
         }
         int result=0;

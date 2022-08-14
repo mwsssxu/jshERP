@@ -55,7 +55,7 @@ public class PlatformConfigController {
             PlatformConfig platformConfig = platformConfigService.getPlatformConfigByKey(platformKey);
             res = platformConfig.getPlatformValue();
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res = "ERP系统";
         }
         return res;
@@ -75,7 +75,7 @@ public class PlatformConfigController {
             PlatformConfig platformConfig = platformConfigService.getPlatformConfigByKey(platformKey);
             res = platformConfig.getPlatformValue();
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res = "#";
         }
         return res;
@@ -118,7 +118,7 @@ public class PlatformConfigController {
             res.code = 200;
             res.data = platformConfig;
         } catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.getMessage(), e);
             res.code = 500;
             res.data = "获取数据失败";
         }
