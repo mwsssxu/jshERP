@@ -278,7 +278,7 @@
     },
     created() {
       this.model = Object.assign({}, {});
-      this.initColumnsSetting()
+      this.initColumnsSetting();
       this.loadTreeData();
     },
     computed: {

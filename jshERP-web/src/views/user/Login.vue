@@ -1,4 +1,3 @@
-<!-- b y 7 5 2 7  1 8 9 2 0 -->
 <template>
   <div class="main">
     <a-form :form="form" class="user-layout-login" ref="formLogin" id="formLogin">
@@ -205,6 +204,7 @@
       departConfirm(res, loginName){
         if(res.code==200){
           let err = {};
+          console.log(res);
           if(res.data.msgTip == 'user can login'){
             Vue.ls.set('winBtnStrList', res.data.userBtn, 7 * 24 * 60 * 60 * 1000);
             Vue.ls.set('roleType', res.data.roleType, 7 * 24 * 60 * 60 * 1000);

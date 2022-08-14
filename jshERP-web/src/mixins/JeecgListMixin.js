@@ -363,7 +363,7 @@ export const JeecgListMixin = {
       }
       if (pathName && btnStrList) {
         for (let i = 0; i < btnStrList.length; i++) {
-          if (btnStrList[i].url === pathName) {
+          if ('/erp'+btnStrList[i].url === pathName) {
             if (btnStrList[i].btnStr) {
               this.btnEnableList = btnStrList[i].btnStr;
             }
