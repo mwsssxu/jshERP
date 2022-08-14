@@ -30,7 +30,7 @@ import java.util.Map;
 import static com.jsh.erp.utils.ResponseJsonUtil.returnJson;
 
 /**
- * @author ji-sheng-hua  jshERP
+ * @author palan erp
  */
 @RestController
 @RequestMapping(value = "/function")

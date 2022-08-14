@@ -29,8 +29,8 @@ import static com.jsh.erp.utils.ResponseJsonUtil.returnJson;
 /**
  * Description
  *
- * @Author: cjl
- * @Date: 2019/1/22 10:29
+ * @Author: palan
+ * @Date: 2022/1/22 10:29
  */
 @RestController
 @RequestMapping(value = "/serialNumber")
@@ -42,7 +42,7 @@ public class SerialNumberController {
     private SerialNumberService serialNumberService;
 
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      *批量添加序列号
      * create time: 2019/1/29 15:11

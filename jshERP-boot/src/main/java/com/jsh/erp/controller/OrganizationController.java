@@ -23,7 +23,7 @@ import java.text.SimpleDateFormat;
 import java.util.List;
 
 /**
- * create by: cjl
+ * create by: palan
  * description:
  *
  * create time: 2019/3/6 10:54
@@ -76,7 +76,7 @@ public class OrganizationController {
     }
 
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      * 获取机构树数据
      * create time: 2019/2/19 11:49
@@ -98,7 +98,7 @@ public class OrganizationController {
         return arr;
     }
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      *  新增机构信息
      * create time: 2019/2/19 17:17
@@ -118,7 +118,7 @@ public class OrganizationController {
         return result;
     }
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      *  修改机构信息
      * create time: 2019/2/20 9:30

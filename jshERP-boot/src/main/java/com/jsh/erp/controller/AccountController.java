@@ -23,7 +23,7 @@ import java.util.Map;
 import static com.jsh.erp.utils.ResponseJsonUtil.returnJson;
 
 /**
- * @author jishenghua 75271*8920
+ * @author palan 75271*8920
  */
 @RestController
 @RequestMapping(value = "/account")

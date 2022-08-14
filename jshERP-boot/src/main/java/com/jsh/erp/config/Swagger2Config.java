@@ -14,7 +14,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**
  * 插件集成配置
  *
- * @author jishenghua
+ * @author palan
  * @version 1.0
  */
 @Configuration
@@ -33,10 +33,10 @@ public class Swagger2Config {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("华夏ERP Restful Api")
+                .title(" Restful Api")
                 .description("华夏ERP接口描述")
                 .termsOfServiceUrl("http://127.0.0.1")
-                .contact(new Contact("jishenghua", "", ""))
+                .contact(new Contact("palan", "", ""))
                 .version("3.0")
                 .build();
     }

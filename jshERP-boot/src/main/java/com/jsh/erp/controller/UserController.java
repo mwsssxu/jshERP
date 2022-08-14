@@ -37,7 +37,7 @@ import java.util.concurrent.Executors;
 import static com.jsh.erp.utils.ResponseJsonUtil.returnJson;
 
 /**
- * @author ji_sheng_hua 华夏erp
+ * @author ji_sheng_hua 
  */
 @RestController
 @RequestMapping(value = "/user")
@@ -309,7 +309,7 @@ public class UserController {
     }
 
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      *  新增用户及机构和用户关系
      * create time: 2019/3/8 16:06
@@ -334,7 +334,7 @@ public class UserController {
     }
 
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      *  修改用户及机构和用户关系
      * create time: 2019/3/8 16:06

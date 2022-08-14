@@ -22,7 +22,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
- * @author ji—sheng—hua   jshERP
+ * @author palan   erp
  */
 @RestController
 @RequestMapping(value = "/materialCategory")
@@ -93,7 +93,7 @@ public class MaterialCategoryController {
         return res;
     }
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      * 获取商品类别树数据
      * create time: 2019/2/19 11:49
@@ -115,7 +115,7 @@ public class MaterialCategoryController {
         return arr;
     }
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      *  新增商品类别数据
      * create time: 2019/2/19 17:17
@@ -135,7 +135,7 @@ public class MaterialCategoryController {
         return result;
     }
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      *  修改商品类别数据
      * create time: 2019/2/20 9:30

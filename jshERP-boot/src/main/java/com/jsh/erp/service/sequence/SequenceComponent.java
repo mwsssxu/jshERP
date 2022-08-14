@@ -15,7 +15,7 @@ import java.util.Map;
 /**
  * Description
  *
- * @Author: jishenghua
+ * @Author: palan
  * @Date: 2021/3/16 16:33
  */
 @Service(value = "sequence_component")

@@ -5,8 +5,8 @@ import org.apache.ibatis.annotations.Param;
 import java.util.Date; /**
  * Description
  *
- * @Author: qiankunpingtai
- * @Date: 2019/3/29 15:09
+ * @Author: palan
+ * @Date: 2022/3/29 15:09
  */
 public interface UserBusinessMapperEx {
 

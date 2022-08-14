@@ -5,8 +5,8 @@ import java.util.Date;
 /**
  * Description
  *
- * @Author: cjl
- * @Date: 2019/3/8 15:12
+ * @Author: palan
+ * @Date: 2022/3/8 15:12
  */
 public class UserEx extends User{
     //机构简称

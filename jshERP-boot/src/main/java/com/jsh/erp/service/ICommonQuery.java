@@ -10,7 +10,7 @@ import java.util.Map;
  * 通用查询接口
  * 功能：1、单条查询 2、分页+搜索 3、查询数量
  *
- * @author jishenghua
+ * @author palan
  * @version 1.0
  */
 public interface ICommonQuery {

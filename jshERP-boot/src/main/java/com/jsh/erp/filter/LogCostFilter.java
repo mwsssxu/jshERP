@@ -18,9 +18,9 @@ import java.util.regex.Pattern;
 @WebFilter(filterName = "LogCostFilter", urlPatterns = {"/*"},
         initParams = {@WebInitParam(name = "ignoredUrl", value = ".ico"),
                       @WebInitParam(name = "filterPath",
-                              value = "/jshERP-boot/user/login#/jshERP-boot/user/registerUser#/jshERP-boot/user/randomImage#" +
-                                      "/jshERP-boot/platformConfig/getPlatform#/jshERP-boot/v2/api-docs#/jshERP-boot/webjars#" +
-                                      "/jshERP-boot/systemConfig/static")})
+                              value = "/erp-boot/user/login#/erp-boot/user/registerUser#/erp-boot/user/randomImage#" +
+                                      "/erp-boot/platformConfig/getPlatform#/erp-boot/v2/api-docs#/erp-boot/webjars#" +
+                                      "/erp-boot/systemConfig/static")})
 public class LogCostFilter implements Filter {
 
     private static final String FILTER_PATH = "filterPath";

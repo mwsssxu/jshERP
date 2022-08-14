@@ -238,7 +238,7 @@ public class MaterialCategoryService {
         return list;
     }
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      *获取商品类别树数据
      * create time: 2019/2/19 14:30
@@ -255,7 +255,7 @@ public class MaterialCategoryService {
        return list;
     }
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      *  新增商品类别信息
      * create time: 2019/2/19 16:30

@@ -28,8 +28,8 @@ import java.util.List;
 /**
  * Description
  *
- * @Author: cjl
- * @Date: 2019/1/21 16:33
+ * @Author: palan
+ * @Date: 2022/1/21 16:33
  */
 @Service
 public class SerialNumberService {
@@ -151,7 +151,7 @@ public class SerialNumberService {
     }
 
     /**
-     * create by: qiankunpingtai
+     * create by: palan
      *  逻辑删除序列号信息
      * create time: 2019/3/27 17:43
      * @Param: ids
@@ -190,7 +190,7 @@ public class SerialNumberService {
         return list==null?0:list.size();
     }
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      *  根据商品名称判断商品名称是否有效
      * create time: 2019/1/23 17:04
@@ -227,7 +227,7 @@ public class SerialNumberService {
         return null;
     }
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      *  根据商品名称判断给商品添加序列号是否可行
      *  1、根据商品名称必须查询到唯一的商品
@@ -255,7 +255,7 @@ public class SerialNumberService {
     }
 
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      * 出库时判断序列号库存是否足够，
      * 同时将对应的序列号绑定单据
@@ -273,7 +273,7 @@ public class SerialNumberService {
      *
      * */
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      * 卖出序列号
      * create time: 2019/1/25 9:17
@@ -298,7 +298,7 @@ public class SerialNumberService {
     }
 
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      * 赎回序列号
      * create time: 2019/1/25 9:17
@@ -320,7 +320,7 @@ public class SerialNumberService {
     }
 
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      *批量添加序列号，最多500个
      * create time: 2019/1/29 15:11

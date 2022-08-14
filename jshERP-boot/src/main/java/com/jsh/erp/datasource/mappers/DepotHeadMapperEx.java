@@ -14,8 +14,8 @@ import java.util.List;
 /**
  * Description
  *
- * @Author: cjl
- * @Date: 2019/1/25 14:50
+ * @Author: palan
+ * @Date: 2022/1/25 14:50
  */
 public interface DepotHeadMapperEx {
     List<DepotHeadVo4List> selectByConditionDepotHead(

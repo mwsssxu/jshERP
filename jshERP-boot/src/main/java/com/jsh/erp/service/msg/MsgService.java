@@ -205,7 +205,7 @@ public class MsgService {
     }
 
     /**
-     * create by: qiankunpingtai
+     * create by: palan
      *  逻辑删除角色信息
      * create time: 2019/3/28 15:44
      * @Param: ids

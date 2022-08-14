@@ -24,7 +24,7 @@ import java.util.Map;
 import static com.jsh.erp.utils.ResponseJsonUtil.returnJson;
 
 /**
- * @author ji_sheng_hua jshERP
+ * @author ji_sheng_hua erp
  */
 @RestController
 @RequestMapping(value = "/userBusiness")

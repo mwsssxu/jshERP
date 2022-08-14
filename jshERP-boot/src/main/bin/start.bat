@@ -1,6 +1,6 @@
 @echo off
 
-title jshERP
+title erp
 
-java -Xms1000m -Xmx2000m -jar .\lib\jshERP.jar
+java -Xms1000m -Xmx2000m -jar .\lib\erp.jar
 pause over

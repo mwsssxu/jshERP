@@ -135,7 +135,7 @@ public class UserService {
         return result;
     }
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      * 添加事务控制
      * create time: 2019/1/11 14:30
@@ -166,7 +166,7 @@ public class UserService {
         return result;
     }
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      * 添加事务控制
      * create time: 2019/1/11 14:31
@@ -188,7 +188,7 @@ public class UserService {
         return result;
     }
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      * 添加事务控制
      * create time: 2019/1/11 14:32
@@ -209,7 +209,7 @@ public class UserService {
         return result;
     }
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      *  添加事务控制
      * create time: 2019/1/11 14:33
@@ -362,7 +362,7 @@ public class UserService {
         return list==null?0:list.size();
     }
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      *  获取当前用户信息
      * create time: 2019/1/24 10:01
@@ -488,7 +488,7 @@ public class UserService {
     @Transactional(value = "transactionManager", rollbackFor = Exception.class)
     public UserEx registerUser(UserEx ue, Integer manageRoleId, HttpServletRequest request) throws Exception{
         /**
-         * create by: qiankunpingtai
+         * create by: palan
          * create time: 2019/4/9 18:00
          * 多次创建事务，事物之间无法协同，应该在入口处创建一个事务以做协调
          */
@@ -632,7 +632,7 @@ public class UserService {
         return null;
     }
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      *  检查用户名称和登录名不能重复
      * create time: 2019/3/12 11:36

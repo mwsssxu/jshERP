@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
- * @author ji sheng hua jshERP
+ * @author palan erp
  */
 @RestController
 @RequestMapping(value = "/role")

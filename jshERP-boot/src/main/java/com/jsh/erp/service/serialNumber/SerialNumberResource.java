@@ -7,8 +7,8 @@ import java.lang.annotation.*;
 /**
  * Description
  *
- * @Author: jishenghua
- * @Date: 2019/1/21 16:33
+ * @Author: palan
+ * @Date: 2022/1/21 16:33
  */
 @ResourceInfo(value = "serialNumber")
 @Inherited

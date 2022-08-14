@@ -17,7 +17,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author ji-sheng-hua 752*718*920
+ * @author palan
  */
 @RestController
 @RequestMapping(value = "/sequence")

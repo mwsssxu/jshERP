@@ -31,8 +31,8 @@ import java.util.List;
 /**
  * Description
  *
- * @Author: cjl
- * @Date: 2019/3/6 15:10
+ * @Author: palan
+ * @Date: 2022/3/6 15:10
  */
 @Service
 public class OrganizationService {
@@ -251,7 +251,7 @@ public class OrganizationService {
         return list;
     }
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      *  检查机构编号是否已经存在
      * create time: 2019/3/7 10:01

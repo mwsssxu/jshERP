@@ -17,8 +17,8 @@ import java.util.Map;
 /**
  * Description
  *
- * @Author: cjl
- * @Date: 2019/1/21 16:33
+ * @Author: palan
+ * @Date: 2022/1/21 16:33
  */
 @Service(value = "serialNumber_component")
 @SerialNumberResource

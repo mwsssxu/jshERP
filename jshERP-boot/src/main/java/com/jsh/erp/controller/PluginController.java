@@ -24,7 +24,7 @@ import java.util.*;
 
 /**
  * 插件jar 包测试功能
- * @author jishenghua
+ * @author palan
  * @version 1.0
  */
 @RestController

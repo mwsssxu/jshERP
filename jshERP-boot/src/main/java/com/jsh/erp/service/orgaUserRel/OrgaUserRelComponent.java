@@ -14,8 +14,8 @@ import java.util.Map;
 /**
  * Description
  *
- * @Author: cjl
- * @Date: 2019/3/11 18:10
+ * @Author: palan
+ * @Date: 2022/3/11 18:10
  */
 @Service(value = "orgaUserRel_component")
 @OrgaUserRelResource

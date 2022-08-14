@@ -11,8 +11,8 @@ import java.util.Map;
 /**
  * Description
  *
- * @Author: cjl
- * @Date: 2019/2/18 17:23
+ * @Author: palan
+ * @Date: 2022/2/18 17:23
  */
 public interface MaterialCategoryMapperEx {
     List<MaterialCategory> selectByConditionMaterialCategory(

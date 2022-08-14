@@ -7,8 +7,8 @@ import java.lang.annotation.*;
 /**
  * Description
  *  机构
- * @Author: cjl
- * @Date: 2019/3/6 15:10
+ * @Author: palan
+ * @Date: 2022/3/6 15:10
  */
 @ResourceInfo(value = "organization")
 @Inherited

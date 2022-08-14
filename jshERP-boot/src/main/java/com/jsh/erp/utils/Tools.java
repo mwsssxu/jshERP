@@ -19,7 +19,7 @@ import java.util.regex.Pattern;
 /**
  * 工具类
  *
- * @author jishenghua  qq:7-5-2-7-1-8-9-2-0
+ * @author palan  qq:7-5-2-7-1-8-9-2-0
  */
 public class Tools {
     /**
@@ -596,7 +596,7 @@ public class Tools {
      *
      * @param str
      * @return
-     * @author jishenghua
+     * @author palan
      */
     public static boolean isContainsChinese(String str) {
         return Pattern.compile("[\u4e00-\u9fa5]").matcher(str).matches();
@@ -617,7 +617,7 @@ public class Tools {
      *
      * @param s
      * @return
-     * @author jishenghua
+     * @author palan
      */
     public static String removeSymbolForString(String s) {
         StringBuffer buffer = new StringBuffer();
@@ -692,7 +692,7 @@ public class Tools {
      * @param pattern
      * @return
      * @throws ParseException
-     * @author jishenghua
+     * @author palan
      */
     public static Date parse(String strDate, String pattern)
             throws ParseException {

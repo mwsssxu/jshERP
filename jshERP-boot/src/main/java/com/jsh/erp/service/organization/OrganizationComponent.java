@@ -15,8 +15,8 @@ import java.util.Map;
 /**
  * Description
  *
- * @Author: cjl
- * @Date: 2019/3/6 15:09
+ * @Author: palan
+ * @Date: 2022/3/6 15:09
  */
 @Service(value = "organization_component")
 @OrganizationResource

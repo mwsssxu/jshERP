@@ -7,7 +7,7 @@ import java.lang.annotation.*;
 /**
  * Description
  *
- * @Author: jishenghua
+ * @Author: palan
  * @Date: 2021/3/16 16:33
  */
 @ResourceInfo(value = "sequence")

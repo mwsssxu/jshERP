@@ -28,8 +28,8 @@ import java.util.List;
 /**
  * Description
  *
- * @Author: cjl
- * @Date: 2019/3/11 18:11
+ * @Author: palan
+ * @Date: 2022/3/11 18:11
  */
 @Service
 public class OrgaUserRelService {
@@ -102,7 +102,7 @@ public class OrgaUserRelService {
         return result;
     }
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      *  新增机构用户关联关系,反显id
      * create time: 2019/3/12 9:40
@@ -142,7 +142,7 @@ public class OrgaUserRelService {
         return null;
     }
     /**
-     * create by: cjl
+     * create by: palan
      * description:
      *  更新机构用户关联关系
      * create time: 2019/3/12 9:40

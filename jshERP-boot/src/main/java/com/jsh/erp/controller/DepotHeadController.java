@@ -40,7 +40,7 @@ import static com.jsh.erp.utils.ResponseJsonUtil.returnJson;
 import static com.jsh.erp.utils.Tools.getNow3;
 
 /**
- * @author ji-sheng-hua 752*718*920
+ * @author palan
  */
 @RestController
 @RequestMapping(value = "/depotHead")

@@ -7,8 +7,8 @@ import java.math.BigDecimal;
 /**
  * Description
  *
- * @Author: cjl
- * @Date: 2019/2/25 11:40
+ * @Author: palan
+ * @Date: 2022/2/25 11:40
  */
 @Data
 public class DepotEx extends Depot{

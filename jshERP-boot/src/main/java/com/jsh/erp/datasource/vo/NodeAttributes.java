@@ -3,8 +3,8 @@ package com.jsh.erp.datasource.vo;
 /**
  * Description
  *
- * @Author: qiankunpingtai
- * @Date: 2019/3/13 18:11
+ * @Author: palan
+ * @Date: 2022/3/13 18:11
  */
 public class NodeAttributes {
     //编号

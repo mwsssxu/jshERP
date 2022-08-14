@@ -5,8 +5,8 @@ import java.util.List;
 /**
  * Description
  *  树形结构基本元素
- * @Author: cjl
- * @Date: 2019/2/19 11:27
+ * @Author: palan
+ * @Date: 2022/2/19 11:27
  */
 public class TreeNode {
     /**
